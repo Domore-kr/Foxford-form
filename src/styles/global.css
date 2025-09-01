@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary: #8A51E6;
+    --color-secondary: #25262C;
+    --color-grayLight: rgba(236,237,243,0.8);
+    --color-orangeBtn: #FF7A00;
+}
