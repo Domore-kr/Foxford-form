@@ -1,8 +1,39 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: 'TT Runs Trial';
+    src: url('../assets/fonts/TTRunsTrial/TT Runs Trial ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT Runs Trial';
+    src: url('../assets/fonts/TTRunsTrial/TT Runs Trial Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('../assets/fonts/Circe/Circe-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circe';
+    src: url('../assets/fonts/Circe/Circe-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
 @theme {
     --color-primary: #8A51E6;
     --color-secondary: #25262C;
     --color-grayLight: rgba(236,237,243,0.8);
     --color-orangeBtn: #FF7A00;
+
+    --font-runs: "TT Runs Trial", sans-serif;
+    --font-circe: Circe, sans-serif;
 }
